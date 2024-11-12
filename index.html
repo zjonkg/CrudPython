@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de alumnos</h1>
+    <table id="itemsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Curso</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas de items se insertarán aquí -->
+        </tbody>
+    </table>
+
+    <h2>Agregar Nuevo alumno</h2>
+    <section class="container">
+        <form id="addItemForm">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="text" id="apellido" placeholder="Apellido" required>
+            <input type="text" id="curso" placeholder="Curso" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
